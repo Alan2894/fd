@@ -1,0 +1,30 @@
+<!--Universidad Politecnica de Francisco I Madero
+ingenieria en sistemas cumputacionales
+tecnologias y aplicaciones en internet
+Ing.cain hernandez angeles												
+Alumnos:Edwin emir rodriguez serrano y Alan santiago viveros-->
+
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="ISO-8859-1">			
+	<title>Pagina de sucursales</title>			
+</head>											
+																								
+<body>										
+	
+    <h1 th:text="'id_gerente: ' + ${sucur.id_gerente}"></h1>
+    <h2 th:text="'dirección: ' + ${sucur.direccion}">Otro mensaje</h2>
+    <h2 th:text="'teléfono: ' + ${sucur.telefono}">Otro mensaje</h2>
+    <h3 th:text="'correo: ' + ${sucur.correo}">mensaje estitco</h3>
+    <h3 th:text="'estatus: ' + ${sucur.estatus}">mensaje estitco</h3>
+    <h4 th:text="'horario de Atención: ' + ${sucur.Horario_atencion}">mensaje estitco</h4> <!-- Cambié a Horario_atencion -->
+    <h4 th:text="'cuenta cuenta: ' + ${sucur.Cuenta_cuenta}">mensaje estitco</h4> <!-- Cambié a Cuenta_cuenta -->
+    <h4 th:text="'usuario: ' + ${sucur.usuario}">mensaje estitco</h4>
+    <h5 th:text="'contraseña: ' + ${sucur.contraseña}">mensaje estitco</h5>
+
+
+</body>
+
+</html>
